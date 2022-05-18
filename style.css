@@ -6,7 +6,9 @@ body {
     background: #eee;
     margin: 20px 0;
 }
-
+*::-webkit-scrollbar{
+    display: none;
+}
 article {
     width: 21cm;
     min-height: 29.7cm;
@@ -14,6 +16,9 @@ article {
     margin: 0 auto;
     overflow: auto;
     padding: 1em;
+}
+.wechat{
+    color: grey;
 }
 body {
     margin: 0;
